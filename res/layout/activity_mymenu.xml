@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp" >
+
+    <TextView
+        style="@style/text_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_margin="20dp"
+        android:text="My menu"
+        android:textSize="20dp" />
+    
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line_menu"
+        />
+    /n/n
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+    
+	    <TextView 
+			android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:text="ID"/>
+	
+	    <EditText
+	        android:id="@+id/edit1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@null"
+	        android:ems="10"
+	        android:height="10dp"
+	        android:inputType="textNoSuggestions"
+	        android:padding="0dip"
+	        android:width="150dp" />
+	</LinearLayout>
+	\n
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+		<TextView 
+			android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:text="PASSWORD"/>
+	
+		<EditText
+		    android:id="@+id/edit2"
+		    android:layout_width="100dp"
+		    android:layout_height="wrap_content"
+		    android:ems="10"
+		    android:inputType="textNoSuggestions" />
+	</LinearLayout>
+	/n
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:gravity="right">
+		<Button 
+			android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="10dp"        
+	        android:text="로그인"/>
+		<Button 
+			android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="10dp"        
+	        android:text="회원가입"/>
+	</LinearLayout>
+	/n/n/n/n
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_margin="20dp"
+        android:text="나의 즐겨찾기"
+        android:textSize="15dp" />
+</LinearLayout>

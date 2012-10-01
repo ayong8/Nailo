@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">nailo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_schedule">Schedule</string>
+    <string name="btn_save">SAVE</string>
+    <string name="title_activity_mymenu">Mymenu</string>
+    <string name="choongchungbookdo">충청\n북도</string>
+    <string name="title_activity_choongchung">Choongchung</string>
+
+</resources>

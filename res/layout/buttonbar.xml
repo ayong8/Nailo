@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.25"
+            android:adjustViewBounds="true"
+            android:maxHeight="35dp"
+            android:onClick="OnClickMyMenu"
+            android:src="@drawable/btn_my" />
+
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.25"
+            android:adjustViewBounds="true"
+            android:maxHeight="35dp"
+            android:src="@drawable/btn_plan" />
+
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.25"
+            android:adjustViewBounds="true"
+            android:maxHeight="35dp"
+            android:src="@drawable/btn_community" />
+
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.25"
+            android:adjustViewBounds="true"
+            android:maxHeight="35dp"
+            android:src="@drawable/btn_more" />
+</LinearLayout>

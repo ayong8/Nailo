@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/btn_save" />
+    
+    
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6" >
+        
+        <ImageView
+	        android:id="@+id/map"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_gravity="center"
+	        android:src="@drawable/map" />
+        
+       
+        <TextView
+	        android:id="@+id/충청도"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:onClick="OnClickChoongbuk"
+	        android:text="@string/choongchungbookdo" />
+
+         <TextView
+	        android:id="@+id/강원도"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/충청도"
+	        android:layout_marginTop="50dip"
+	        android:layout_marginLeft="-10dip"
+	   		android:textSize="15sp"
+	        android:text="강원도" />
+         
+         <TextView
+	        android:id="@+id/경상북"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/충청도"
+	        android:layout_marginLeft="0dp"
+	        android:text="경상북도" />
+        
+    </RelativeLayout>
+
+    <!-- <include layout="@layout/buttonbar"/> -->
+    
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bar_schedule" />
+
+</LinearLayout>
